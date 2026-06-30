@@ -1,0 +1,342 @@
+# ==========================================
+# DevaPath — AI Temple Guide
+# pip install -r requirements.txt
+# ==========================================
+
+# --- Scraping ---
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0          # BS4 ka fast parser
+
+# --- Data Handling ---
+pandas==2.2.0
+
+# --- RAG Pipeline (baad me kaam aayega) ---
+langchain==0.1.9
+langchain-groq==0.1.3
+chromadb==0.4.22
+sentence-transformers==2.5.1
+
+# --- Streamlit App ---
+streamlit==1.32.0
+streamlit-folium==0.18.0
+folium==0.16.0
+
+# --- Text to Speech ---
+gtts==2.5.1
+
+# --- Environment Variables ---
+python-dotenv==1.0.1
+
+
+
+
+
+
+import streamlit as st
+import folium
+from streamlit_folium import st_folium
+import json
+import asyncio
+import edge_tts
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+import os
+import base64
+
+# ==========================================
+# PAGE CONFIGURATION
+# ==========================================
+st.set_page_config(
+    page_title="DevaPath",
+    page_icon="🛕",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
+# ==========================================
+# ENVIRONMENT & AI SETUP
+# ==========================================
+load_dotenv()
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+llm = ChatGroq(
+    groq_api_key=groq_api_key,
+    model_name="llama-3.3-70b-versatile",
+    temperature=0.3
+)
+
+async def generate_voice(text):
+    communicate = edge_tts.Communicate(
+        text=text,
+        voice="en-IN-NeerjaNeural"
+    )
+    await communicate.save("guide.mp3")
+
+# ==========================================
+# CUSTOM CSS
+# ==========================================
+st.markdown("""
+<style>
+.stApp { background: #0F172A; color: white; }
+.hero-title { color: #F59E0B; font-size: 36px; font-weight: bold; margin-bottom: 0; }
+.card { background: #1E293B; padding: 20px; border-radius: 15px; border: 1px solid #334155; }
+hr { border-color: #334155; }
+</style>
+""", unsafe_allow_html=True)
+
+# ==========================================
+# DATA LOADING & SESSION STATE
+# ==========================================
+@st.cache_data
+def load_data():
+    # Make sure your JSON file path is correct
+    try:
+        with open("data/processed/temples_master_fixed.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # Fallback dummy data if file is missing during testing
+        return [{"id": "1", "name": "Kashi Vishwanath", "city": "Varanasi", "state": "UP", "deity": "Shiva", "lat": 25.3109, "lon": 83.0076, "opening_time": "3:00 AM", "closing_time": "11:00 PM", "entry_fee": "Free", "dress_code": "Traditional", "history": "Ancient temple of Lord Shiva..."}]
+
+temples = load_data()
+
+if "selected_temple" not in st.session_state:
+    st.session_state.selected_temple = temples[0]
+
+# ==========================================
+# TOP BAR: Header & Search
+# ==========================================
+top_col1, top_col2, top_col3 = st.columns([2, 2, 1])
+
+with top_col1:
+    st.markdown('<p class="hero-title">🛕 DevaPath</p>', unsafe_allow_html=True)
+
+with top_col2:
+    search_query = st.text_input("🔍", placeholder="Search any temple...", label_visibility="collapsed")
+
+with top_col3:
+    st.markdown("<div style='text-align: right; padding-top: 10px;'>🌙 Dark Mode</div>", unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ==========================================
+# ROW 1: MAP (Left) & TEMPLE INFO (Right)
+# ==========================================
+row1_col1, row1_col2 = st.columns([2, 1])
+
+with row1_col1:
+    st.markdown("### 🗺️ India Map")
+    
+    # Create Map
+    m = folium.Map(location=[22.5, 80], zoom_start=4.5, tiles="CartoDB Positron")
+    
+    # Add Markers
+    for temple in temples:
+        lat = temple.get("lat")
+        lon = temple.get("lon")
+        if lat is None or lon is None:
+            continue
+            
+        folium.Marker(
+            location=[lat, lon],
+            popup=temple["id"],
+            tooltip=temple["name"],
+            icon=folium.Icon(color="orange", icon="star")
+        ).add_to(m)
+
+    # Display Map
+    map_data = st_folium(m, width=800, height=450, returned_objects=["last_object_clicked_popup"])
+
+    # Update selected temple if a marker is clicked
+    if map_data and map_data.get("last_object_clicked_popup"):
+        clicked_id = map_data["last_object_clicked_popup"]
+        for t in temples:
+            if str(t.get("id")) == str(clicked_id):
+                st.session_state.selected_temple = t
+                break
+
+with row1_col2:
+    st.markdown("### 🏛️ Temple Information")
+    t_info = st.session_state.selected_temple
+    
+    st.markdown(f"""
+    <div class="card">
+        <h4 style="color: #F59E0B; margin-top:0;">{t_info.get('name', 'N/A')}</h4>
+        <p><b>📍 Location:</b> {t_info.get('city', 'N/A')}, {t_info.get('state', 'N/A')}</p>
+        <p><b>🙏 Deity:</b> {t_info.get('deity', 'N/A')}</p>
+        <p><b>🕐 Timings:</b> {t_info.get('opening_time', 'N/A')} - {t_info.get('closing_time', 'N/A')}</p>
+        <p><b>💰 Entry Fee:</b> {t_info.get('entry_fee', 'N/A')}</p>
+        <p><b>👕 Dress Code:</b> {t_info.get('dress_code', 'N/A')}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ==========================================
+# ROW 2: AI GUIDE (Left) & DETAILS (Right)
+# ==========================================
+row2_col1, row2_col2 = st.columns([1, 2])
+with row2_col1:
+    st.markdown("### 👩 Shivangi AI Guide")
+    
+    # Helper to load local image into HTML
+    def get_image_as_base64(path):
+        try:
+            with open(path, "rb") as image_file:
+                return base64.b64encode(image_file.read()).decode()
+        except FileNotFoundError:
+            return "" # Fallback if image is missing
+
+    guide_img_base64 = get_image_as_base64("assets/shivangi_guide.png")
+    img_src = f"data:image/png;base64,{guide_img_base64}" if guide_img_base64 else "https://api.dicebear.com/7.x/bottts/svg?seed=Shivangi&backgroundColor=F59E0B"
+    
+    st.markdown(f"""
+    <div class="card" style="text-align: center;">
+        <img src="{img_src}" width="120" style="border-radius: 50%; object-fit: cover; height: 120px;">
+        <h4 style="color:#f59e0b; margin-bottom:5px;">Shivangi</h4>
+        <p style="font-size: 14px;">Your AI Audio Guide</p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.write("")
+    if st.button(f"🎤 Explain {t_info.get('name', 'Temple')}", use_container_width=True):
+        with st.spinner("🤖 Shivangi is generating audio..."):
+            prompt = f"""
+            You are Shivangi, the AI Temple Guide.
+            Explain this temple in a friendly way in 250 words.
+            Temple Name: {t_info.get("name")}
+            Location: {t_info.get("city")}, {t_info.get("state")}
+            Deity: {t_info.get("deity")}
+            History: {t_info.get("history")}
+            """
+            response = llm.invoke(prompt)
+            ai_text = response.content
+            
+            st.success("✅ Explanation Ready!")
+            st.write(ai_text)
+            
+            asyncio.run(generate_voice(ai_text))
+            with open("guide.mp3", "rb") as f:
+                st.audio(f.read(), format="audio/mp3", autoplay=True)
+
+
+with row2_col2:
+    st.markdown("### 📖 Temple Details")
+    tab1, tab2, tab3 = st.tabs(["📖 History", "🏛️ Architecture", "🎉 Festivals"])
+    
+    with tab1:
+        st.write(t_info.get("history", "History details not available."))
+    with tab2:
+        st.write(t_info.get("architecture", "Architecture details are not available for this temple yet."))
+    with tab3:
+        st.write(t_info.get("festivals", "Festival information is currently being updated."))
+
+st.markdown("---")
+
+
+# ==========================================
+# ROW 3: TEMPLE GALLERY (FIXED)
+# ==========================================
+# ==========================================
+# ROW 3: SELECTED TEMPLE SHOWCASE
+# ==========================================
+st.markdown("### 📸 Temple View")
+
+temple_name = t_info.get("name", "")
+temple_img_dir = "assets/temples"
+
+# Step 1: Check karo JSON me direct "image" ka naam likha hai kya
+selected_img = t_info.get("image")
+
+# Step 2: Agar JSON me nahi likha, toh naam padh ke folder se dhoondo (Smart Match)
+if not selected_img and os.path.exists(temple_img_dir):
+    all_files = os.listdir(temple_img_dir)
+    ignore_words = {"temple", "mandir", "shree", "shri", "lord", "mata", "devi", "the"}
+    
+    # Temple ke naam se main keywords nikalo (e.g., 'Kashi Vishwanath' se 'kashi')
+    keywords = [w.lower() for w in temple_name.split() if len(w) > 3 and w.lower() not in ignore_words]
+    
+    for f in all_files:
+        f_lower = f.lower()
+        # Filename me keyword match hote hi image utha lo
+        if any(key[:4] in f_lower for key in keywords):
+            selected_img = f
+            break
+
+# Photo ko screen ke beecho-beech mast frame karne ke liye [1 : 2.5 : 1] ratio
+c1, c2, c3 = st.columns([1, 2.5, 1])
+
+with c2:
+    if selected_img and os.path.exists(f"{temple_img_dir}/{selected_img}"):
+        st.image(
+            f"{temple_img_dir}/{selected_img}", 
+            caption=f"🛕 {temple_name}", 
+            use_container_width=True
+        )
+    else:
+        st.info(f"🖼️ '{temple_name}' ki image abhi upload nahi hui hai.")
+
+st.markdown("---")
+
+# ==========================================
+# ROW 4: AARTI SCHEDULE (CUSTOM DESIGN)
+# ==========================================
+st.markdown("### 🔔 Aarti Schedule")
+
+# Selected temple ka aarti data nikalo
+aarti_data = t_info.get("aarti", {})
+
+if aarti_data:
+    for aarti_name, details in aarti_data.items():
+        # Aarti ke naam ko thoda saaf dikhane ke liye (e.g. 'mangala_aarti' -> 'Mangala')
+        clean_name = aarti_name.replace("_aarti", "").replace("_alati", "").replace("_seva", "").replace("_", " ").title()
+        time_str = details.get("time", "N/A")
+        desc_str = details.get("description", "")
+        
+        # Exact image jaisa dark green bar design
+        st.markdown(f"""
+        <div style="
+            background-color: #0F3D3E; 
+            padding: 12px 20px; 
+            border-radius: 8px; 
+            margin-bottom: 10px; 
+            border: 1px solid #145A5B;
+            display: flex;
+            align-items: center;
+        ">
+            <span style="font-size: 18px; margin-right: 15px;">🙏</span>
+            <span style="color: #4ADE80; font-weight: bold; font-size: 15px;">{clean_name} :</span>
+            <span style="color: #E2E8F0; font-size: 15px; margin-left: 8px; font-weight: 600;">{time_str}</span>
+            <span style="color: #94A3B8; font-size: 13px; margin-left: auto;">{desc_str}</span>
+        </div>
+        """, unsafe_allow_html=True)
+else:
+    st.info("Iss temple ki aarti timings abhi update nahi hui hain.")
+
+st.markdown("---")
+
+# ==========================================
+# ROW 5: REVIEWS
+# ==========================================
+st.markdown("### ❤️ Devotee Reviews")
+st.markdown("""
+<div class="card" style="margin-bottom: 10px;">
+    <b>⭐⭐⭐⭐⭐ Beautiful temple experience</b><br>
+    <span style="color:#CBD5E1; font-size:14px;">"The aarti was mesmerizing and the premises were very clean. Must visit!" - Rahul D.</span>
+</div>
+<div class="card">
+    <b>⭐⭐⭐⭐ Peaceful and divine</b><br>
+    <span style="color:#CBD5E1; font-size:14px;">"Very crowded on weekends, but the darshan was very fulfilling." - Priya S.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ==========================================
+# ROW 6: FOOTER
+# ==========================================
+st.markdown("""
+<div style="text-align: center; color: #64748B; padding: 20px;">
+    🌸 <b>DevaPath</b> | <a href="#" style="color:#F59E0B;">GitHub</a> | <a href="#" style="color:#F59E0B;">LinkedIn</a> | <a href="#" style="color:#F59E0B;">About</a> | <a href="#" style="color:#F59E0B;">Contact</a>
+</div>
+""", unsafe_allow_html=True)

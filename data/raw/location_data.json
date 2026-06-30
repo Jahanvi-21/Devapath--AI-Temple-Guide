@@ -1,0 +1,1440 @@
+[
+  {
+    "city": "Varanasi",
+    "center_lat": 25.3176,
+    "center_lon": 82.9739,
+    "radius_km": 15,
+    "temples_found": 33,
+    "temples": [
+      {
+        "osm_id": 293212713,
+        "osm_type": "node",
+        "name": "Sankat Mochan Hanuman Temple (Mandir)",
+        "name_hindi": "",
+        "lat": 25.2821387,
+        "lon": 82.999981,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Sankat Mochan Road",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": "221005"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 293221509,
+        "osm_type": "node",
+        "name": "Baba Keenaram Ashram",
+        "name_hindi": "",
+        "lat": 25.2958918,
+        "lon": 83.0032762,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 1880329248,
+        "osm_type": "node",
+        "name": "Hanuman Temple",
+        "name_hindi": "",
+        "lat": 25.4282627,
+        "lon": 82.8899312,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 2089922682,
+        "osm_type": "node",
+        "name": "Shree Shiv Mahavir Mandir",
+        "name_hindi": "",
+        "lat": 25.3025743,
+        "lon": 82.9732372,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 3284076806,
+        "osm_type": "node",
+        "name": "Saraswati Mandir",
+        "name_hindi": "",
+        "lat": 25.27516,
+        "lon": 83.0056573,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 4524173725,
+        "osm_type": "node",
+        "name": "Durga Temple",
+        "name_hindi": "",
+        "lat": 25.288607,
+        "lon": 82.9992738,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 5261502526,
+        "osm_type": "node",
+        "name": "पादोदक तीर्थ",
+        "name_hindi": "",
+        "lat": 25.3293989,
+        "lon": 83.0442908,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 5306480010,
+        "osm_type": "node",
+        "name": "Rohiteshwar Mandir",
+        "name_hindi": "",
+        "lat": 25.2801793,
+        "lon": 82.9909571,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Gandhinagar, Naria",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": "221005"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 5841246496,
+        "osm_type": "node",
+        "name": "Kashi Vishwanath Temple",
+        "name_hindi": "काशी विश्वनाथ मंदिर",
+        "lat": 25.3108256,
+        "lon": 83.0105711,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 6163784685,
+        "osm_type": "node",
+        "name": "Shree Kali Temple",
+        "name_hindi": "",
+        "lat": 25.3039285,
+        "lon": 83.0075541,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 6391630485,
+        "osm_type": "node",
+        "name": "Shayri Mata Temple",
+        "name_hindi": "शायरी माता मंदिर",
+        "lat": 25.3051794,
+        "lon": 82.9964414,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 7080034498,
+        "osm_type": "node",
+        "name": "Agiyabeer ghat",
+        "name_hindi": "",
+        "lat": 25.2121958,
+        "lon": 82.9663105,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 7997453201,
+        "osm_type": "node",
+        "name": "Kardmeshwar Temple",
+        "name_hindi": "",
+        "lat": 25.2683166,
+        "lon": 82.9582511,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 7997453206,
+        "osm_type": "node",
+        "name": "Bhimchandi Temple",
+        "name_hindi": "",
+        "lat": 25.2517365,
+        "lon": 82.8489246,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8080212346,
+        "osm_type": "node",
+        "name": "mandir",
+        "name_hindi": "",
+        "lat": 25.2729354,
+        "lon": 82.9739446,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8080389704,
+        "osm_type": "node",
+        "name": "Sultankeshwer",
+        "name_hindi": "",
+        "lat": 25.2125752,
+        "lon": 82.9546032,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8122463570,
+        "osm_type": "node",
+        "name": "Hanuman Temple",
+        "name_hindi": "",
+        "lat": 25.2680001,
+        "lon": 82.9834711,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8156866536,
+        "osm_type": "node",
+        "name": "Sai baba temple",
+        "name_hindi": "",
+        "lat": 25.3430568,
+        "lon": 82.9963122,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8157924195,
+        "osm_type": "node",
+        "name": "Chaura mata mandir",
+        "name_hindi": "",
+        "lat": 25.3367293,
+        "lon": 82.9962811,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8178992234,
+        "osm_type": "node",
+        "name": "shiv mandir",
+        "name_hindi": "",
+        "lat": 25.2538619,
+        "lon": 82.9550574,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "shivdham nagar colony",
+          "city": "varanasi",
+          "state": "",
+          "postcode": "221106"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8848598039,
+        "osm_type": "node",
+        "name": "Shitala Mata Mandir",
+        "name_hindi": "",
+        "lat": 25.3095836,
+        "lon": 83.0041401,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8918343223,
+        "osm_type": "node",
+        "name": "Ramjiyawan Baba Mandir",
+        "name_hindi": "",
+        "lat": 25.2865254,
+        "lon": 82.9480827,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Nathupur",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": "221108"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 8918353087,
+        "osm_type": "node",
+        "name": "Bhaskar Shiv Madir",
+        "name_hindi": "",
+        "lat": 25.2936118,
+        "lon": 82.9366838,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "bhullanpur",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": "221108"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 11690678451,
+        "osm_type": "node",
+        "name": "shree hanuman ji mandir",
+        "name_hindi": "",
+        "lat": 25.3723887,
+        "lon": 82.9217537,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 11690897238,
+        "osm_type": "node",
+        "name": "shree bhagwan shankar mandir",
+        "name_hindi": "",
+        "lat": 25.3633341,
+        "lon": 82.9347098,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 11690988931,
+        "osm_type": "node",
+        "name": "vishwanath ashram",
+        "name_hindi": "",
+        "lat": 25.3533244,
+        "lon": 82.9665653,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 177611965,
+        "osm_type": "way",
+        "name": "Deeh Baba Temple",
+        "name_hindi": "",
+        "lat": 25.419352,
+        "lon": 82.8914205,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 321653074,
+        "osm_type": "way",
+        "name": "Karmanveer Baba TEMPLE",
+        "name_hindi": "",
+        "lat": 25.2566924,
+        "lon": 82.9848253,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 327754746,
+        "osm_type": "way",
+        "name": "Sri Mansha Devi Temple",
+        "name_hindi": "",
+        "lat": 25.2705401,
+        "lon": 83.0284494,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "Varanasi",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 466386112,
+        "osm_type": "way",
+        "name": "Durga Mandir",
+        "name_hindi": "",
+        "lat": 25.2821168,
+        "lon": 83.0400329,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 467412736,
+        "osm_type": "way",
+        "name": "Siv Mandir",
+        "name_hindi": "",
+        "lat": 25.1991337,
+        "lon": 83.0206678,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 996262994,
+        "osm_type": "way",
+        "name": "Deeh Baba temple",
+        "name_hindi": "",
+        "lat": 25.2780869,
+        "lon": 82.9773684,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      },
+      {
+        "osm_id": 1337770189,
+        "osm_type": "way",
+        "name": "Assi Ghat Mandir",
+        "name_hindi": "",
+        "lat": 25.2892596,
+        "lon": 83.0059567,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Varanasi"
+      }
+    ]
+  },
+  {
+    "city": "Vrindavan",
+    "center_lat": 27.5794,
+    "center_lon": 77.6966,
+    "radius_km": 10,
+    "temples_found": 0,
+    "temples": []
+  },
+  {
+    "city": "Mathura",
+    "center_lat": 27.4924,
+    "center_lon": 77.6737,
+    "radius_km": 10,
+    "temples_found": 19,
+    "temples": [
+      {
+        "osm_id": 4569668889,
+        "osm_type": "node",
+        "name": "Sri Caitanya Mahaprabhu's Sitting Place",
+        "name_hindi": "",
+        "lat": 27.5674711,
+        "lon": 77.700294,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 4706937889,
+        "osm_type": "node",
+        "name": "Pilot Baba Ashram",
+        "name_hindi": "",
+        "lat": 27.572705,
+        "lon": 77.6969117,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Gurukul Road, Vrindavan (U.P.) INDIA",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 5470829321,
+        "osm_type": "node",
+        "name": "Druva tila",
+        "name_hindi": "",
+        "lat": 27.4646102,
+        "lon": 77.6543272,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 7172072781,
+        "osm_type": "node",
+        "name": "храм Ашта-сакхи",
+        "name_hindi": "",
+        "lat": 27.5802569,
+        "lon": 77.6888572,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 8910875401,
+        "osm_type": "node",
+        "name": "Durga Mandir",
+        "name_hindi": "",
+        "lat": 27.4962908,
+        "lon": 77.6548242,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12592913133,
+        "osm_type": "node",
+        "name": "Shri Prachin Hanuman Mandir",
+        "name_hindi": "",
+        "lat": 27.4861829,
+        "lon": 77.6675151,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12592918077,
+        "osm_type": "node",
+        "name": "Baba Jai Guru Dev Shanti Sthal",
+        "name_hindi": "",
+        "lat": 27.4748193,
+        "lon": 77.6565893,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12592926516,
+        "osm_type": "node",
+        "name": "Shiv Temple",
+        "name_hindi": "",
+        "lat": 27.4826941,
+        "lon": 77.6546613,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12595651182,
+        "osm_type": "node",
+        "name": "Shri Bhuteshwar Mahadev Temple",
+        "name_hindi": "",
+        "lat": 27.4998805,
+        "lon": 77.6684018,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12595815327,
+        "osm_type": "node",
+        "name": "Radha Krishna Mandir",
+        "name_hindi": "",
+        "lat": 27.5308029,
+        "lon": 77.660396,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 12719325193,
+        "osm_type": "node",
+        "name": "Sri chintamani kunj",
+        "name_hindi": "",
+        "lat": 27.5711878,
+        "lon": 77.6727511,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 13273674966,
+        "osm_type": "node",
+        "name": "Temple",
+        "name_hindi": "",
+        "lat": 27.4404942,
+        "lon": 77.6863591,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 229134115,
+        "osm_type": "way",
+        "name": "Shri Krishna Garbh Gruha",
+        "name_hindi": "",
+        "lat": 27.5054273,
+        "lon": 77.6693341,
+        "deity": "",
+        "website": "http://shrikrishnajanmasthan.net",
+        "phone": "+91 565 242 3888",
+        "address": {
+          "street": "",
+          "city": "Mathura",
+          "state": "",
+          "postcode": "281001"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 491875572,
+        "osm_type": "way",
+        "name": "Dwarikadeesh Temple",
+        "name_hindi": "",
+        "lat": 27.5051686,
+        "lon": 77.6848965,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Naya Bazaar",
+          "city": "Mathura",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 671782752,
+        "osm_type": "way",
+        "name": "Sri Dauji Temple",
+        "name_hindi": "",
+        "lat": 27.429447,
+        "lon": 77.6360679,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 671911788,
+        "osm_type": "way",
+        "name": "Shantanu Bihari Temple",
+        "name_hindi": "",
+        "lat": 27.4984753,
+        "lon": 77.6261287,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 672271049,
+        "osm_type": "way",
+        "name": "Gokul temple",
+        "name_hindi": "",
+        "lat": 27.4288971,
+        "lon": 77.7415947,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 679447890,
+        "osm_type": "way",
+        "name": "Jaipur Mandir",
+        "name_hindi": "",
+        "lat": 27.5722227,
+        "lon": 77.6903564,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      },
+      {
+        "osm_id": 844941546,
+        "osm_type": "way",
+        "name": "Akshaya Patra Temple, Vrindavan",
+        "name_hindi": "",
+        "lat": 27.5685581,
+        "lon": 77.6442258,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Mathura"
+      }
+    ]
+  },
+  {
+    "city": "Haridwar",
+    "center_lat": 29.9457,
+    "center_lon": 78.1642,
+    "radius_km": 15,
+    "temples_found": 0,
+    "temples": []
+  },
+  {
+    "city": "Meerut",
+    "center_lat": 28.9845,
+    "center_lon": 77.7064,
+    "radius_km": 20,
+    "temples_found": 21,
+    "temples": [
+      {
+        "osm_id": 1286045451,
+        "osm_type": "node",
+        "name": "Shiv Mandir",
+        "name_hindi": "",
+        "lat": 28.9752118,
+        "lon": 77.7295582,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 1535156362,
+        "osm_type": "node",
+        "name": "shiv mandir",
+        "name_hindi": "",
+        "lat": 29.0254249,
+        "lon": 77.6854077,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 3403733973,
+        "osm_type": "node",
+        "name": "Dev Mandir",
+        "name_hindi": "",
+        "lat": 29.0537219,
+        "lon": 77.7068579,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Modipuram",
+          "city": "Meerut",
+          "state": "",
+          "postcode": "250110"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 3412946738,
+        "osm_type": "node",
+        "name": "Uday Park Mandir",
+        "name_hindi": "",
+        "lat": 29.0667541,
+        "lon": 77.7150374,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Uday Park",
+          "city": "Modipuram",
+          "state": "",
+          "postcode": "250110"
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 4358578818,
+        "osm_type": "node",
+        "name": "Shiv Parvati Temple",
+        "name_hindi": "",
+        "lat": 28.9627403,
+        "lon": 77.7332795,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 7030428271,
+        "osm_type": "node",
+        "name": "SAI BABA MANDIR",
+        "name_hindi": "",
+        "lat": 28.9749657,
+        "lon": 77.7163113,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 8110410089,
+        "osm_type": "node",
+        "name": "Lisari gate hanuman mandir",
+        "name_hindi": "",
+        "lat": 28.9708906,
+        "lon": 77.7064345,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 8984708732,
+        "osm_type": "node",
+        "name": "Dayaleshwar Shiv Mandir",
+        "name_hindi": "",
+        "lat": 28.9837228,
+        "lon": 77.7137588,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11245796359,
+        "osm_type": "node",
+        "name": "Sri Pipleshwar Mahadev Shiv Temple",
+        "name_hindi": "",
+        "lat": 28.9896283,
+        "lon": 77.7059373,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11252970334,
+        "osm_type": "node",
+        "name": "Jai Shiv Mahadev Mandi",
+        "name_hindi": "जय शिव महादेव मंदिर",
+        "lat": 28.9822563,
+        "lon": 77.7080927,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11254666524,
+        "osm_type": "node",
+        "name": "Sri Kanthi Mata Old Temple",
+        "name_hindi": "",
+        "lat": 28.9827866,
+        "lon": 77.7354608,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11268880614,
+        "osm_type": "node",
+        "name": "Shree Mahadev Shiv Temple",
+        "name_hindi": "",
+        "lat": 28.9752429,
+        "lon": 77.721869,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11277194967,
+        "osm_type": "node",
+        "name": "Dakhsinmukhi Sankat Mochan Mandir",
+        "name_hindi": "",
+        "lat": 28.9982172,
+        "lon": 77.6987094,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 11286436146,
+        "osm_type": "node",
+        "name": "Hanuman Mandir",
+        "name_hindi": "हनुमान मंदिर",
+        "lat": 28.9883673,
+        "lon": 77.7361449,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 13334868759,
+        "osm_type": "node",
+        "name": "Mansa Devi Mandir",
+        "name_hindi": "",
+        "lat": 28.955262,
+        "lon": 77.749462,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Jagriti Vihar",
+          "city": "Meerut",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 13725226990,
+        "osm_type": "node",
+        "name": "Shree Sita Ram Mandir",
+        "name_hindi": "",
+        "lat": 28.9690862,
+        "lon": 77.724272,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 903652956,
+        "osm_type": "way",
+        "name": "E - block temple",
+        "name_hindi": "",
+        "lat": 28.9588021,
+        "lon": 77.7382993,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 954674648,
+        "osm_type": "way",
+        "name": "Shree Lakshmi Narayan Temple",
+        "name_hindi": "",
+        "lat": 29.0508443,
+        "lon": 77.7119659,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 1214457825,
+        "osm_type": "way",
+        "name": "Baba Augharnath Shiva Temple",
+        "name_hindi": "बाबा औघड़नाथ  मंदिर",
+        "lat": 28.9968943,
+        "lon": 77.6911662,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "Meerut",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 1214458134,
+        "osm_type": "way",
+        "name": "Mansa Devi Dham",
+        "name_hindi": "मंसा देवी धाम",
+        "lat": 28.9791357,
+        "lon": 77.6800993,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "Railway Colony",
+          "city": "Meerut",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      },
+      {
+        "osm_id": 1258231759,
+        "osm_type": "way",
+        "name": "Dogar mandir",
+        "name_hindi": "",
+        "lat": 29.0075911,
+        "lon": 77.7175715,
+        "deity": "",
+        "website": "",
+        "phone": "",
+        "address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "postcode": ""
+        },
+        "source": "OpenStreetMap",
+        "search_city": "Meerut"
+      }
+    ]
+  },
+  {
+    "city": "Delhi",
+    "center_lat": 28.6139,
+    "center_lon": 77.209,
+    "radius_km": 20,
+    "temples_found": 0,
+    "temples": []
+  }
+]

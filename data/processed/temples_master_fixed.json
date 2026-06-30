@@ -1,0 +1,700 @@
+[
+  {
+    "id": "kashi_vishwanath_temple_varanasi",
+    "name": "Kashi Vishwanath Temple",
+    "image":"kashi-vishwanath.webp",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "deity": "Shiva",
+    "lat": 25.3108256,
+    "lon": 83.0105711,
+    "history": "Kashi Vishwanath Temple is one of the most sacred Hindu temples dedicated to Lord Shiva and is among the twelve revered Jyotirlingas. Located on the western bank of the holy Ganges River in Varanasi, the temple has been an important center of worship for centuries. According to tradition, Lord Shiva himself established Kashi as his eternal abode, making it one of the holiest cities in Hinduism. The temple has been destroyed and rebuilt several times throughout history due to invasions. The present structure was built in 1780 by Ahilyabai Holkar, the Queen of Indore, while its iconic gold-plated spire and dome were later donated by Maharaja Ranjit Singh in 1839. Today, Kashi Vishwanath Temple is one of India's most visited pilgrimage sites, attracting millions of devotees every year, especially during Maha Shivaratri and the holy month of Shravan, where pilgrims seek the blessings of Lord Shiva for spiritual liberation and prosperity.",
+    "architecture": "Historical structure, rebuilt in 1780 with a gold-plated spire and dome.",
+    "festivals": ["Maha Shivaratri", "Sawan Somvar", "Purnima"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple",
+    "opening_time": "03:00 AM",
+    "closing_time": "11:00 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala_aarti": {
+        "time": "03:00 AM",
+        "description": "Pratah aarti — sabse pehli aarti, bhakt bahut kam hote hain"
+      },
+      "bhog_aarti": {
+        "time": "11:15 AM",
+        "description": "Dopahar ki aarti — bhog (prasad) chadhaya jaata hai"
+      },
+      "sandhya_aarti": {
+        "time": "07:00 PM",
+        "description": "Sham ki aarti — bahut bheed hoti hai"
+      },
+      "shringar_aarti": {
+        "time": "09:00 PM",
+        "description": "Shivling ka shringar kiya jaata hai"
+      },
+      "shayan_aarti": {
+        "time": "10:30 PM",
+        "description": "Raat ki antim aarti — Shivji ko sulaya jaata hai"
+      }
+    },
+    "best_visit_time": "Subah 3-5 AM (Mangala Aarti ke liye) ya sham 7 PM",
+    "special_days": [
+      "Maha Shivratri",
+      "Sawan Somvar",
+      "Purnima"
+    ],
+    "entry_fee": "Free (special darshan ke alag charges ho sakte hain)",
+    "dress_code": "Traditional dress preferred, shoulders covered karo",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "OpenStreetMap"
+    }
+  },
+  {
+    "id": "banke_bihari_temple_vrindavan",
+    "name": "Banke Bihari Temple",
+    "image":"banke_biharitemple.webp",
+    "city": "Vrindavan",
+    "state": "Uttar Pradesh",
+    "deity": "Krishna",
+    "lat": 27.5773,
+    "lon": 77.6992,
+    "history": "Banke Bihari Temple is one of the most famous and revered temples dedicated to Lord Krishna in India. Located in the sacred town of Vrindavan, the temple is believed to have originated in the 16th century when the great saint Swami Haridas discovered the divine idol of Banke Bihari Ji in Nidhivan after years of intense devotion and meditation. According to tradition, Radha and Krishna appeared before him and merged into a single form, which became the idol worshipped today. As the number of devotees increased, the present temple was built in the 19th century by the descendants of Swami Haridas. The name Banke Bihari refers to Lord Krishna's graceful three-fold bending posture, symbolizing his divine charm and playfulness. The temple is renowned for its unique tradition of repeatedly opening and closing the curtain during darshan, reflecting the belief that the Lord's enchanting gaze is too powerful for devotees to behold continuously. Today, Banke Bihari Temple is one of the most visited pilgrimage sites in India, attracting millions of devotees every year, especially during Janmashtami, Holi, and Radhashtami.",
+    "architecture": "19th-century structure.",
+    "festivals": ["Janmashtami", "Holi", "Radha Ashtami"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Banke_Bihari_Temple",
+    "opening_time": "07:45 AM",
+    "closing_time": "09:00 PM",
+    "seasonal_note": "",
+    "break_time": "01:00 PM - 05:30 PM (dopahar ka break)",
+    "aarti": {
+      "mangala_aarti": {
+        "time": "07:45 AM",
+        "description": "Subah ki pehli aarti"
+      },
+      "shringar_aarti": {
+        "time": "09:30 AM",
+        "description": "Krishna ka shringar"
+      },
+      "rajbhog_aarti": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki mukhya aarti"
+      },
+      "utthapan_aarti": {
+        "time": "05:30 PM",
+        "description": "Break ke baad ki aarti"
+      },
+      "sandhya_aarti": {
+        "time": "07:30 PM",
+        "description": "Sham ki aarti"
+      },
+      "shayan_aarti": {
+        "time": "08:30 PM",
+        "description": "Raat ki antim aarti"
+      }
+    },
+    "best_visit_time": "Subah 8-10 AM ya sham 5:30-8 PM",
+    "special_days": [
+      "Janmashtami (bheed bahut zyada)",
+      "Holi (Vrindavan ki Holi famous hai)",
+      "Radha Ashtami"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Decent dress, no sleeveless",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "krishna_janmabhoomi_temple_mathura",
+    "name": "Krishna Janmabhoomi Temple",
+    "image":"shrikirishnajanambhoomitempless.jpg",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "deity": "Krishna",
+    "lat": 27.5035,
+    "lon": 77.6737,
+    "history": "Shri Krishna Janmabhoomi Temple is one of the holiest pilgrimage sites in India, believed to mark the exact birthplace of Lord Krishna. According to Hindu tradition, Lord Krishna was born here over 5,000 years ago in a prison cell where his parents, Vasudeva and Devaki, were imprisoned by the tyrant King Kansa. The site has witnessed several cycles of destruction and reconstruction throughout history due to invasions and political changes. The present temple complex was rebuilt in the 20th century and stands as a symbol of faith, resilience, and devotion. The complex includes the sacred Garbha Griha, believed to be Krishna's birthplace, along with beautifully designed shrines dedicated to Lord Krishna and other deities. Today, Shri Krishna Janmabhoomi Temple attracts millions of devotees from across the world, especially during Janmashtami, when the birth of Lord Krishna is celebrated with grand ceremonies, devotional singing, and cultural performances. It remains one of the most significant spiritual landmarks in the Braj region.",
+    "architecture": "20th-century complex featuring the sacred Garbha Griha.",
+    "festivals": ["Janmashtami", "Holi", "Radhashtami"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Krishna_Janmabhoomi",
+    "opening_time": "05:00 AM",
+    "closing_time": "09:30 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala": {
+        "time": "05:00 AM",
+        "description": "Pehli aarti"
+      },
+      "shringar": {
+        "time": "07:30 AM",
+        "description": "Krishna ka shringar"
+      },
+      "rajbhog": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "utthapan": {
+        "time": "04:00 PM",
+        "description": "Shaam ki shuruat"
+      },
+      "sandhya": {
+        "time": "07:00 PM",
+        "description": "Sham ki mukhya aarti"
+      },
+      "shayan": {
+        "time": "09:00 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Janmashtami ke din — lekin bahut zyada bheed",
+    "special_days": [
+      "Janmashtami",
+      "Holi",
+      "Radhashtami"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "No shorts, no sleeveless",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "kedarnath_temple_kedarnath",
+    "name": "Kedarnath Temple",
+    "image":"kedarnathtemple.jpg",
+    "city": "Kedarnath",
+    "state": "Uttarakhand",
+    "deity": "Shiva",
+    "lat": 30.7352,
+    "lon": 79.0669,
+    "history": "Kedarnath Temple is one of the most sacred Hindu temples dedicated to Lord Shiva and is one of the twelve Jyotirlingas as well as a key shrine of the Char Dham and Panch Kedar pilgrimages. Located in the Rudraprayag district of Uttarakhand at an altitude of about 3,583 meters (11,755 feet) near the source of the Mandakini River, the temple is surrounded by the majestic Himalayan ranges. According to Hindu mythology, after the Mahabharata war, the Pandavas sought Lord Shiva's forgiveness for the sins of war. To avoid them, Lord Shiva took the form of a bull, but when the Pandavas recognized Him, He disappeared into the earth, leaving His hump at Kedarnath, which is worshipped today as the sacred Jyotirlinga. The remaining parts of the bull are believed to have appeared at the other four Panch Kedar temples. The present stone temple is believed to have been originally built by the Pandavas and later revived in the 8th century CE by Adi Shankaracharya. Constructed from massive grey stone slabs without the use of modern cement, the temple showcases remarkable Himalayan architecture and has withstood centuries of harsh weather. During the devastating 2013 Uttarakhand floods, the temple remained largely unharmed despite widespread destruction around it, becoming a symbol of faith and resilience. Due to heavy snowfall, the temple remains open only from April or May to November, while during winter the idol of Lord Kedarnath is ceremonially shifted to Omkareshwar Temple for worship. Major festivals celebrated at the temple include Maha Shivaratri, the annual opening and closing ceremonies, and the Badri-Kedar Utsav. Today, Kedarnath Temple attracts millions of devotees and pilgrims from across the world who undertake the challenging Himalayan trek to seek the blessings of Lord Shiva and experience the temple's extraordinary spiritual and natural beauty.",
+    "architecture": "Himalayan architecture built from massive grey stone slabs without cement.",
+    "festivals": ["Maha Shivratri", "Opening Day (May)"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Kedarnath_Temple",
+    "opening_time": "04:00 AM",
+    "closing_time": "09:00 PM",
+    "seasonal_note": "Sirf May-November khulta hai (baaki time snow se band)",
+    "break_time": "",
+    "aarti": {
+      "pratah_aarti": {
+        "time": "04:00 AM",
+        "description": "Subah ki pehli aarti"
+      },
+      "abhishek_aarti": {
+        "time": "06:00 AM",
+        "description": "Shivling ka abhishek (snaan)"
+      },
+      "evening_aarti": {
+        "time": "07:30 PM",
+        "description": "Sham ki aarti, bahut sundar hoti hai"
+      }
+    },
+    "best_visit_time": "Subah 4-6 AM ya sham 6-7 PM",
+    "special_days": [
+      "Maha Shivratri",
+      "Opening Day (May)"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Warm clothes zaroor pehnein — bahut thanda hota hai",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "badrinath_temple_badrinath",
+    "name": "Badrinath Temple",
+    "image":"badrinathtemple.webp",
+    "city": "Badrinath",
+    "state": "Uttarakhand",
+    "deity": "Vishnu",
+    "lat": 30.7433,
+    "lon": 79.4938,
+    "history": "Badrinath Temple is one of the holiest temples dedicated to Lord Vishnu and is an important part of both the Char Dham and Chota Char Dham pilgrimages. Located on the banks of the Alaknanda River in the Chamoli district of Uttarakhand at an altitude of about 3,300 meters, the temple is surrounded by the majestic Himalayan mountains. According to Hindu tradition, Lord Vishnu performed deep meditation at this sacred place, while Goddess Lakshmi took the form of a Badri (berry) tree to protect Him from the harsh climate, giving the temple its name Badrinath. The present temple is believed to have been re-established by Adi Shankaracharya in the 8th century CE after he discovered the idol of Lord Badrinarayan in the Alaknanda River and installed it in the temple. Over the centuries, the temple has been renovated several times due to natural disasters and extreme weather conditions. The temple showcases traditional North Indian Himalayan architecture with a colorful façade, a gold-gilded roof, and a sanctum housing the black stone idol of Lord Badrinarayan in a meditative posture. One of the temple's unique traditions is that it remains open for worship only from April or May to November, as heavy snowfall forces it to close during winter, when the deity is ceremonially worshipped at Joshimath. Major festivals celebrated here include Badri-Kedar Utsav, Mata Murti Ka Mela, and the annual temple opening and closing ceremonies. Today, Badrinath Temple attracts millions of pilgrims every year who visit to seek the blessings of Lord Vishnu and experience the spiritual serenity of the Himalayas.",
+    "architecture": "Traditional North Indian Himalayan architecture with a colorful façade and gold-gilded roof.",
+    "festivals": ["Opening day (Akshaya Tritiya)", "Closing day"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Badrinath_Temple",
+    "opening_time": "04:30 AM",
+    "closing_time": "09:00 PM",
+    "seasonal_note": "May se November khulta hai",
+    "break_time": "",
+    "aarti": {
+      "mahabhishek": {
+        "time": "04:30 AM",
+        "description": "Mukhya abhishek aarti"
+      },
+      "pratah_aarti": {
+        "time": "06:30 AM",
+        "description": "Subah darshan ke liye"
+      },
+      "madhyan_aarti": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "sandhya_aarti": {
+        "time": "07:30 PM",
+        "description": "Sham ki aarti"
+      }
+    },
+    "best_visit_time": "Subah 4:30-7 AM",
+    "special_days": [
+      "Opening day (Akshaya Tritiya)",
+      "Closing day (Bhai Dooj ke baad)"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Warm clothes zaroori",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "somnath_temple_veraval",
+    "name": "Somnath Temple",
+    "image":"somnath_temple.webp",
+    "city": "Veraval",
+    "state": "Gujarat",
+    "deity": "Shiva",
+    "lat": 20.888,
+    "lon": 70.4012,
+    "history": "Somnath Temple is one of the most revered Hindu temples dedicated to Lord Shiva and is recognized as the first of the twelve Jyotirlingas, making it one of the holiest pilgrimage sites in India. Located at Prabhas Patan near Veraval on the western coast of Gujarat, the temple stands on the shore of the Arabian Sea and is renowned for its spiritual and historical significance. According to Hindu mythology, the Moon God, Chandra (Soma), built the original temple in gold to seek relief from a curse imposed by his father-in-law, Daksha. Pleased by Chandra's devotion, Lord Shiva appeared as Somnath, meaning Lord of the Moon, and blessed him, giving the temple its name. Over the centuries, Somnath Temple became immensely prosperous but was repeatedly attacked and destroyed by invading rulers, most notably by Mahmud of Ghazni in 1025 CE. Despite these repeated destructions, the temple was rebuilt several times by devoted Hindu rulers. The present temple was reconstructed in the Chalukya architectural style after India's independence under the initiative of Sardar Vallabhbhai Patel, and it was inaugurated in 1951 by Rajendra Prasad. The temple features magnificent sandstone architecture, an intricately carved Shikhara rising about 155 feet, a sacred Jyotirlinga in the sanctum, and the famous Baan Stambh, a pillar that signifies there is no land between Somnath and Antarctica in a straight line across the sea. A unique tradition of the temple is the daily Aarti and the spectacular evening Sound and Light Show, which narrates its glorious history. Major festivals celebrated here include Maha Shivaratri, Shravan Month celebrations, Kartik Purnima, and Somvati Amavasya. Today, Somnath Temple stands as a powerful symbol of faith, resilience, and India's rich cultural heritage, attracting millions of devotees and tourists from around the world every year..",
+    "architecture": "Chalukya architectural style with a 155-foot-tall Shikhara.",
+    "festivals": ["Maha Shivratri", "Kartik Purnima"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Somnath_temple",
+    "opening_time": "06:00 AM",
+    "closing_time": "09:30 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "pratah_aarti": {
+        "time": "07:00 AM",
+        "description": "Subah ki aarti"
+      },
+      "madhyan_aarti": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "sandhya_aarti": {
+        "time": "07:00 PM",
+        "description": "Sham ki aarti — light & sound show ke saath"
+      }
+    },
+    "best_visit_time": "Sham 7:30 PM — Light & Sound Show hota hai (bahut sundar)",
+    "special_days": [
+      "Maha Shivratri",
+      "Kartik Purnima"
+    ],
+    "entry_fee": "Free (light show: Rs 100 approximately)",
+    "dress_code": "No leather items allowed inside",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "dwarkadheesh_temple_dwarka",
+    "name": "Dwarkadheesh Temple",
+    "image":"dwarakadeeshtemple.webp", 
+    "city": "Dwarka",
+    "state": "Gujarat",
+    "deity": "Krishna",
+    "lat": 22.2442,
+    "lon": 68.9685,
+    "history": "Dwarkadhish Temple, also known as the Jagat Mandir, is one of the most sacred Hindu temples dedicated to Lord Krishna, who is worshipped here as the King of Dwarka. Located on the banks of the Gomti River near the Arabian Sea in Gujarat, the temple is one of the Char Dham pilgrimage sites and an important part of the Sapta Puri, the seven sacred cities of Hinduism. According to tradition, the original temple was built over 2,500 years ago by Vajranabha, the great-grandson of Lord Krishna, at the site of Krishna's royal palace. The present temple, built between the 15th and 16th centuries, showcases magnificent Chalukya-style architecture, featuring a five-story structure supported by 72 intricately carved pillars and a towering 78-meter Shikhara crowned with a large flag that is changed several times each day as a sacred ritual. The temple's sanctum houses a beautiful black stone idol of Dwarkadhish, depicted with four arms holding the divine symbols of Lord Vishnu. Major festivals celebrated here include Janmashtami, Holi, Diwali, Annakut, and Rukmini Vivah, drawing thousands of devotees from across the country. Today, Dwarkadhish Temple stands as a timeless symbol of Lord Krishna's divine kingdom, attracting millions of pilgrims every year who come to seek blessings, witness its rich traditions, and experience the spiritual heritage of one of India's holiest cities.",
+    "architecture": "Chalukya-style, five-story structure with 72 carved pillars and a 78-meter Shikhara.",
+    "festivals": ["Janmashtami", "Dwarkadhish Mahotsav","Holi"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Dwarkadhish_Temple",
+    "opening_time": "06:30 AM",
+    "closing_time": "08:30 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala_aarti": {
+        "time": "06:30 AM",
+        "description": "Pratah aarti"
+      },
+      "shringar_aarti": {
+        "time": "07:30 AM",
+        "description": "Shringar darshan"
+      },
+      "rajbhog_aarti": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "sandhya_aarti": {
+        "time": "07:00 PM",
+        "description": "Sham ki aarti"
+      },
+      "shayan_aarti": {
+        "time": "08:00 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Subah 6:30-9 AM",
+    "special_days": [
+      "Janmashtami",
+      "Dwarkadhish Mahotsav"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Traditional dress preferred",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "tirupati_balaji_temple_tirupati",
+    "name": "Tirupati Balaji Temple",
+    "image":"triupatibalajitemple.webp",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "deity": "Vishnu",
+    "lat": 13.6833,
+    "lon": 79.347,
+    "history": "Tirumala Venkateswara Temple, popularly known as Tirupati Balaji Temple, is one of the most sacred and visited Hindu temples in the world, dedicated to Lord Venkateswara, an incarnation of Lord Vishnu. Situated atop the seven Tirumala Hills in Andhra Pradesh, the temple is one of the 108 Divya Desams and is believed to be the earthly abode of Lord Vishnu during the Kali Yuga. According to Hindu tradition, Lord Venkateswara manifested here to protect humanity and bless devotees with peace, prosperity, and salvation. The temple's history dates back over a thousand years, with significant patronage from the Pallava, Chola, and Vijayanagara dynasties, especially under Krishnadevaraya, who made generous donations for its development. Built in the magnificent Dravidian architectural style, the temple features towering gopurams, the iconic gold-plated Ananda Nilayam Vimana, and the sacred idol of Lord Venkateswara adorned with exquisite gold and diamond ornaments. One of the temple's most unique traditions is the offering of hair (tonsuring) by devotees as a symbol of humility and gratitude, along with the world-famous Tirupati Laddu Prasadam, which has a Geographical Indication (GI) tag. Major festivals celebrated here include Srivari Brahmotsavam, Vaikuntha Ekadashi, Rathasapthami, and Vasanthotsavam, attracting millions of devotees from across the world. Today, Tirumala Venkateswara Temple stands as a timeless symbol of faith, devotion, and spiritual heritage, welcoming over 20–30 million pilgrims every year, making it one of the busiest pilgrimage destinations in the world.",
+    "architecture": "Dravidian architectural style with towering gopurams and gold-plated Ananda Nilayam Vimana.",
+    "festivals": ["Srivari Brahmotsavam", "Vaikuntha Ekadashi"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Tirumala_Venkateswara_Temple",
+    "opening_time": "02:30 AM",
+    "closing_time": "01:00 AM (next day)",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "thiruvanandal": {
+        "time": "02:30 AM",
+        "description": "Sabse pehli seva — pujari darshan"
+      },
+      "viswarupa": {
+        "time": "04:00 AM",
+        "description": "Vishnu ke sab roopon ka darshan"
+      },
+      "thomala_seva": {
+        "time": "08:00 AM",
+        "description": "Phool aur mala ka shringar"
+      },
+      "astadala_seva": {
+        "time": "01:00 PM",
+        "description": "Dopahar ki mukhya seva"
+      },
+      "dolotsavam": {
+        "time": "06:00 PM",
+        "description": "Sham ki aarti"
+      },
+      "ekanta_seva": {
+        "time": "12:00 AM",
+        "description": "Antim raat ki seva"
+      }
+    },
+    "best_visit_time": "Supatham darshan ke liye booking pehle se karo",
+    "special_days": [
+      "Brahmotsavam (Sep-Oct)",
+      "Vaikunta Ekadasi"
+    ],
+    "entry_fee": "Free darshan / Special darshan: Rs 300",
+    "dress_code": "Traditional — dhoti/saree compulsory for close darshan",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "meenakshi_amman_temple_madurai",
+    "name": "Meenakshi Amman Temple",
+    "image":"meenakshitemple.png",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "deity": "Meenakshi",
+    "lat": 9.9195,
+    "lon": 78.1193,
+    "history": "Meenakshi Amman Temple is one of the most magnificent and historic Hindu temples in India, dedicated to Goddess Meenakshi, an incarnation of Goddess Parvati, and her consort Lord Sundareswarar (Shiva). Located in the ancient city of Madurai, Tamil Nadu, the temple is a masterpiece of Dravidian architecture and has been a major center of worship and culture for over two thousand years. According to Hindu tradition, Goddess Meenakshi, the warrior queen of the Pandya kingdom, married Lord Shiva at this sacred site, and their divine wedding is celebrated as a symbol of the union of Shakti and Shiva. The present temple was largely rebuilt and expanded during the 16th and 17th centuries by Ariyanatha Mudaliar and the Nayak rulers, after earlier structures were damaged during invasions. The temple is renowned for its 14 towering gopurams, thousands of colorful sculptures, the Hall of Thousand Pillars, and the sacred Golden Lotus Tank, each showcasing extraordinary craftsmanship. One of its unique traditions is the nightly procession in which the idol of Lord Sundareswarar is ceremonially taken to Goddess Meenakshi's shrine, symbolizing their divine union. Major festivals celebrated here include the world-famous Meenakshi Tirukalyanam during the Chithirai Festival, Navaratri, and Maha Shivaratri. Today, Meenakshi Amman Temple stands as a symbol of devotion, art, and Tamil culture, attracting millions of pilgrims and tourists from around the world every year.",
+    "architecture": "Dravidian architecture featuring 14 towering gopurams and the Hall of Thousand Pillars.",
+    "festivals": ["Meenakshi Tirukalyanam", "Navaratri"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Meenakshi_Amman_Temple",
+    "opening_time": "05:00 AM",
+    "closing_time": "10:00 PM",
+    "seasonal_note": "",
+    "break_time": "12:30 PM - 04:00 PM",
+    "aarti": {
+      "thiruvanandal": {
+        "time": "05:00 AM",
+        "description": "Subah ki pehli aarti"
+      },
+      "kalasandhi": {
+        "time": "08:00 AM",
+        "description": "Subah ki mukhya aarti"
+      },
+      "uchikalam": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "sayarakshai": {
+        "time": "06:00 PM",
+        "description": "Sham ki aarti"
+      },
+      "ardhajaman": {
+        "time": "09:30 PM",
+        "description": "Raat ki aarti"
+      }
+    },
+    "best_visit_time": "Subah 6-9 AM ya sham 4-7 PM",
+    "special_days": [
+      "Meenakshi Thirukalyanam (April-May)",
+      "Navaratri"
+    ],
+    "entry_fee": "Free (camera: Rs 50)",
+    "dress_code": "Traditional — men me lungi/dhoti compulsory for inner sanctum",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "brihadeeswarar_temple_thanjavur",
+    "name": "Brihadeeswarar Temple",
+    "image": "brihaadeswarartemple.jpg",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "deity": "Shiva",
+    "lat": 10.7828,
+    "lon": 79.1318,
+    "history": "Brihadeeswarar Temple, also known as the Big Temple, is one of India's greatest architectural masterpieces, dedicated to Lord Shiva. Located in Thanjavur, Tamil Nadu, the temple was built in 1010 CE by the great Rajaraja Chola I and stands as a symbol of the power and artistic excellence of the Chola Empire. It is a UNESCO World Heritage Site as part of the Great Living Chola Temples. Constructed entirely from granite, the temple is renowned for its magnificent 66-meter-tall Vimana, one of the tallest temple towers in India, and a massive Nandi statue carved from a single stone. The sanctum houses a huge Shiva Linga, while the temple walls are adorned with intricate sculptures, inscriptions, and Chola-era frescoes that reflect the rich cultural heritage of South India. Major festivals celebrated here include Maha Shivaratri, Navaratri, and the annual temple festival, attracting thousands of devotees and visitors. Today, Brihadeeswarar Temple remains an active place of worship and one of India's finest examples of Dravidian architecture, drawing millions of pilgrims, historians, and tourists from around the world.",
+    "architecture": "Dravidian architecture featuring a 66-meter-tall Vimana and granite construction.",
+    "festivals": ["Maha Shivaratri", "Navaratri"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur",
+    "opening_time": "05:30 AM",
+    "closing_time": "09:30 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala": {
+        "time": "05:30 AM",
+        "description": "Pratah aarti"
+      },
+      "shringar": {
+        "time": "07:15 AM",
+        "description": "Shrinathji ka shringar"
+      },
+      "gwal": {
+        "time": "10:00 AM",
+        "description": "Gwalon ke saath darshan"
+      },
+      "rajbhog": {
+        "time": "11:30 AM",
+        "description": "Dopahar ka bhog"
+      },
+      "uttapan": {
+        "time": "03:45 PM",
+        "description": "Break ke baad"
+      },
+      "sandhya": {
+        "time": "07:30 PM",
+        "description": "Sham ki aarti"
+      },
+      "shayan": {
+        "time": "09:00 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Sham 7:30 PM (Sandhya Darshan bahut sundar)",
+    "special_days": [
+      "Annakut (Diwali ke baad)",
+      "Janmashtami",
+      "Holi"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Decent dress, no shorts",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "jagannath_temple_puri",
+    "name": "Jagannath Temple",
+    "image": "LordShreejagganthtemple.png",
+    "city": "Puri",
+    "state": "Odisha",
+    "deity": "Jagannath",
+    "lat": 19.8049,
+    "lon": 85.8185,
+    "history": "Jagannath Temple is one of the most sacred Hindu temples dedicated to Lord Jagannath, a form of Lord Vishnu (Krishna), along with Lord Balabhadra and Goddess Subhadra. Located in the holy city of Puri, Odisha, the temple is one of the Char Dham pilgrimage sites and has been a major center of devotion for centuries. The present temple was built in the 12th century CE by Anantavarman Chodaganga Deva. According to tradition, the deities are carved from sacred neem wood and are ceremonially replaced during the Nabakalebara festival, a unique ritual held every 12 to 19 years. The temple is renowned for its magnificent Kalinga-style architecture, towering 65-meter Shikhara, and the world's largest temple kitchen, where the famous Mahaprasad is prepared for thousands of devotees every day. Its most celebrated festival is the Rath Yatra, during which the three deities are carried through the streets of Puri in grand wooden chariots, attracting millions of pilgrims from around the world. Today, Jagannath Temple stands as a timeless symbol of devotion, culture, and Odisha's rich spiritual heritage, welcoming millions of devotees every year.",
+    "architecture": "Kalinga-style architecture with a 65-meter Shikhara.",
+    "festivals": ["Rath Yatra", "Snana Purnima"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+    "opening_time": "05:00 AM",
+    "closing_time": "11:00 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala_alati": {
+        "time": "05:00 AM",
+        "description": "Pratah ki aarti"
+      },
+      "mailam": {
+        "time": "06:00 AM",
+        "description": "Devi ko jagana"
+      },
+      "abadha_bhog": {
+        "time": "11:00 AM",
+        "description": "Mahaprasad (famous hai)"
+      },
+      "sandhya_alati": {
+        "time": "07:00 PM",
+        "description": "Sham ki aarti"
+      },
+      "badasinghara": {
+        "time": "11:00 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Subah 5-8 AM (Rath Yatra ke time jayenge toh alag experience)",
+    "special_days": [
+      "Rath Yatra (June-July — duniya famous)",
+      "Snana Purnima"
+    ],
+    "entry_fee": "Free (sirf Hindus allowed inside)",
+    "dress_code": "Traditional only, leather strictly prohibited",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "vaishno_devi_temple_katra",
+    "name": "Vaishno Devi Temple",
+    "image":"Mata-Vaishno-DeviTemple.webp",
+    "city": "Katra",
+    "state": "J&K",
+    "deity": "Vaishno Devi",
+    "lat": 33.0308,
+    "lon": 74.9496,
+    "history": "Vaishno Devi Temple is one of the holiest Hindu pilgrimage sites dedicated to Goddess Vaishno Devi, who is believed to be a manifestation of Maha Kali, Maha Lakshmi, and Maha Saraswati. Nestled in the Trikuta Hills near Katra in Jammu and Kashmir at an altitude of about 1,585 meters, the temple attracts millions of devotees every year. According to Hindu tradition, Goddess Vaishno Devi meditated in the sacred cave and later defeated the demon Bhairon Nath, granting him salvation and declaring that every pilgrimage would be complete only after visiting his temple. Instead of an idol, the sanctum houses three sacred natural rock formations, known as Pindis, representing the three divine forms of the Goddess. Pilgrims undertake a 13-kilometer trek from Katra to reach the holy cave, though helicopter and ropeway services are also available. Major festivals celebrated here include Navratri, when the shrine is beautifully decorated and special prayers are offered. Today, Vaishno Devi Temple stands as a symbol of faith, devotion, and spiritual strength, welcoming millions of pilgrims from across the world every year.",
+    "architecture": "Sacred natural cave containing three rock formations (Pindis).",
+    "festivals": ["Navratri", "Diwali"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Vaishno_Devi",
+    "opening_time": "05:00 AM",
+    "closing_time": "10:00 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "pratah_aarti": {
+        "time": "05:00 AM",
+        "description": "Subah ki pehli aarti"
+      },
+      "madhyan_aarti": {
+        "time": "12:00 PM",
+        "description": "Dopahar ki aarti"
+      },
+      "sandhya_aarti": {
+        "time": "06:00 PM",
+        "description": "Sham ki aarti"
+      },
+      "shayan_aarti": {
+        "time": "09:30 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Subah 5-8 AM (thanda + kam bheed)",
+    "special_days": [
+      "Navratri (March & October — bahut bheed)",
+      "Diwali"
+    ],
+    "entry_fee": "Yatra Parchi: Free (online registration zaroori)",
+    "dress_code": "Warm clothes (pahad hai), comfortable shoes for trek",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  },
+  {
+    "id": "nathdwara_temple_nathdwara",
+    "name": "Nathdwara Temple",
+    "image":"Shrinathji_Temple.jpg",
+    "city": "Nathdwara",
+    "state": "Rajasthan",
+    "deity": "Krishna",
+    "lat": 24.9315,
+    "lon": 73.8235,
+    "history": "Shrinathji Temple is one of the most revered Hindu temples dedicated to Lord Shrinathji, a child form of Lord Krishna lifting the Govardhan Hill. Located in the town of Nathdwara in Rajasthan, the temple is the principal shrine of the Pushtimarg tradition founded by Vallabhacharya. According to tradition, the sacred idol originally resided at Govardhan near Mathura but was moved to Rajasthan in 1672 CE by Vitthalnath's followers to protect it from Mughal invasions. Legend says the bullock cart carrying the idol stopped at Nathdwara and would not move further, which was taken as the Lord's wish to reside there. The temple is designed like a traditional royal mansion, or Haveli, reflecting the belief that Shrinathji is served as a living deity rather than worshipped in a conventional temple. One of its unique traditions is the Ashtayam Seva, where the deity is offered eight daily darshans, each featuring different attire, ornaments, music, and food offerings. The temple is also famous for its exquisite Pichwai paintings, which depict the life and festivals of Lord Krishna. Major festivals celebrated here include Janmashtami, Annakut (Govardhan Puja), Holi, and Diwali, attracting millions of devotees every year. Today, Shrinathji Temple stands as a vibrant center of devotion, art, music, and Krishna worship, making Nathdwara one of the most important pilgrimage destinations in Rajasthan.",
+    "architecture": "Designed as a traditional royal mansion (Haveli).",
+    "festivals": ["Annakut", "Janmashtami", "Holi"],
+    "infobox": {},
+    "wiki_url": "https://en.wikipedia.org/wiki/Shrinathji",
+    "opening_time": "05:30 AM",
+    "closing_time": "09:30 PM",
+    "seasonal_note": "",
+    "break_time": "",
+    "aarti": {
+      "mangala": {
+        "time": "05:30 AM",
+        "description": "Pratah aarti"
+      },
+      "shringar": {
+        "time": "07:15 AM",
+        "description": "Shrinathji ka shringar"
+      },
+      "gwal": {
+        "time": "10:00 AM",
+        "description": "Gwalon ke saath darshan"
+      },
+      "rajbhog": {
+        "time": "11:30 AM",
+        "description": "Dopahar ka bhog"
+      },
+      "uttapan": {
+        "time": "03:45 PM",
+        "description": "Break ke baad"
+      },
+      "sandhya": {
+        "time": "07:30 PM",
+        "description": "Sham ki aarti"
+      },
+      "shayan": {
+        "time": "09:00 PM",
+        "description": "Antim aarti"
+      }
+    },
+    "best_visit_time": "Sham 7:30 PM (Sandhya Darshan bahut sundar)",
+    "special_days": [
+      "Annakut (Diwali ke baad)",
+      "Janmashtami",
+      "Holi"
+    ],
+    "entry_fee": "Free",
+    "dress_code": "Decent dress, no shorts",
+    "data_sources": {
+      "history": "Wikipedia",
+      "timings": "Manual Curated",
+      "location": "Not Found"
+    }
+  }
+]

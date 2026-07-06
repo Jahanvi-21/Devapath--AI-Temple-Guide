@@ -1,3 +1,4 @@
+# kitna data inseted hai  users.db database mein check karne ke liye 
 
 import sqlite3
 
@@ -11,3 +12,5 @@ rows = cursor.fetchall()
 print(rows)
 
 conn.close()
+
+

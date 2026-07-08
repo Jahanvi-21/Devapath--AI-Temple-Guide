@@ -438,7 +438,7 @@ def get_base64_image(image_path):
         data = f.read()
     return base64.b64encode(data).decode()
 
-logo_base64 = get_base64_image("assets/logo_temple_dark_bg.png")
+logo_base64 = get_base64_image("assets/logo_temple.png")
 
 # ==========================================
 # TOP BAR

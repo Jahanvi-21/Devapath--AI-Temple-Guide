@@ -921,6 +921,21 @@ if aarti_data:
 else:
     st.info("Iss temple ki aarti timings abhi update nahi hui hain.")
 
+
+
+# ==========================================
+# CONTINUE EXPLORING BUTTON
+# ==========================================
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col2:
+    if st.button("Continue Exploring", use_container_width=True):
+        # Selected temple ko Explore page ke liye save karo
+        st.session_state.selected_temple = t_info
+
+        # Explore page open karo
+        st.switch_page("pages/Explore.py")
+
 st.markdown("---")
 
 # ==========================================

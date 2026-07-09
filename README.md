@@ -150,9 +150,14 @@ Create a `.env` file in the project root:
 
 ```env
 GROQ_API_KEY=YOUR_GROQ_API_KEY
-```
+Get your free API key from: [https://console.groq.com]
 
-Get your free API key from: [console.groq.com](https://console.groq.com)
+OPENWEATHER_API_KEY=your_openweather_api_key
+Get your free API key from :[https://openweathermap.org/api]
+
+NEWSAPI_KEY=your_newsapi_key
+Get your free API key from: [https://newsapi.org]
+```
 
 > **Note:** The `.env` file is intentionally excluded from the repository for security reasons. Users should create their own `.env` file and add a valid `GROQ_API_KEY`.
 

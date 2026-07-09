@@ -1,106 +1,102 @@
-## 📄 Declaration
+## Project Information
+Item	                         Details
+Project Title	DevaPath – AI Powered Temple Guide Platform
+Group Name	      Team Synergy
+Internship	      JSL Works Pvt Ltd Summer Internship Program – 2026
+Project Duration	10 June 2026 – 24 July 2026
+Team Members	Jahanvi , Abhay Tayal, Aman Bisht
 
-This project, **DevaPath – AI Temple Guide**, was developed as part of the JSL Works Pvt Ltd Summer Internship Program – 2026 (10 June 2026 – 24 July 2026) by **Team Synergy**.
+## Declaration
 
-We declare that this project is original work completed collaboratively by our team. By submitting this project — including source code, documentation, datasets, presentations, designs, and all associated materials — all applicable intellectual property, ownership, usage, modification, and implementation rights are assigned to JSL Works Pvt Ltd, in accordance with the internship submission policy.
+We hereby declare that DevaPath – AI Powered Temple Guide Platform is an original work developed by Team Synergy as part of the JSL Works Pvt Ltd Summer Internship Program – 2026.
 
-# 🛕 DevaPath – AI Temple Guide
+By submitting this repository—including the source code, documentation, datasets, presentations, designs, and all associated materials—we confirm that the work has been completed collaboratively by our team unless otherwise acknowledged.
 
-DevaPath is an AI-powered virtual temple guide that helps users explore famous Indian temples through an interactive chatbot. The application provides information about temple history, architecture, deities, festivals, aarti timings, visitor guidelines, and location using Artificial Intelligence, Retrieval-Augmented Generation (RAG), and interactive maps.
+Furthermore, we voluntarily assign and transfer all applicable intellectual property rights, ownership, usage rights, modification rights, and implementation rights associated with this project to JSL Works Pvt Ltd, in accordance with the Summer Internship Program submission policy.
+
+# 🛕 DevaPath – AI Powered Temple Guide Platform
+
+DevaPath is an AI-powered virtual temple guide designed to help users explore famous Indian temples through an intelligent conversational interface.
+
+The application combines Retrieval-Augmented Generation (RAG), Large Language Models (Groq – Llama 3), LangChain, ChromaDB, and interactive maps to provide accurate information about temple history, architecture, deities, festivals, aarti timings, visitor guidelines, and locations.
 
 ---
 
-## 📌 Features
-
-- 🤖 AI-powered Temple Guide using Groq (Llama 3)
-- 💬 Temple Question Answering Chatbot
-- 📖 Temple History
-- 🛕 Temple Architecture Information
-- 🙏 Main Deity Details
-- 🎉 Festivals & Rituals
-- 🪔 Aarti Timings
-- 👗 Traditional Dress Recommendations
-- 📍 Interactive Temple Map
-- 🌍 GPS Coordinates using OpenStreetMap
-- 🔍 RAG-based Information Retrieval
-- 🗄️ ChromaDB Vector Database
-- 🖼️ Temple Images
-- 🔊 Voice Guide (Text-to-Speech)
-- ⚡ Streamlit Web Application
+## ✨ Features
+🤖 AI-powered Temple Guide (Groq – Llama 3)
+📖 Temple History
+🛕 Temple Architecture
+🙏 Main Deity Information
+🎉 Festivals
+🪔 Aarti Timings
+👗 Traditional Dress Guidelines
+📍 Interactive Temple Maps
+🌍 GPS Coordinates (OpenStreetMap)
+🗄️ ChromaDB Vector Database
+🔊 Voice Guide (Text-to-Speech)
+⚡ Streamlit Web Application
 
 ---
 
 ## 🏗️ Project Structure
 
-```text
 DevaPath/
 │
 ├── assets/
 │   ├── screenshots/
-│   │   ├── ai_guide.png
-│   │   ├── interactive_map.png
-│   │   ├── temple_info.png
-│   │   └── timingandhistory.png
 │   ├── temples/
-│   │   ├── badrinathtemple.webp
-│   │   ├── brihadeshwaratemple.jpg
-│   │   ├── dwarakadheeshtemple.webp
-│   │   ├── kashi-vishwanath.webp
-│   │   ├── kedarnathtemple.jpg
-│   │   ├── Lord-Shree-Jagannth-Temple.png
-│   │   ├── Mata-Vaishno-DeviTemple.webp
-│   │   ├── meenakshitemple.png
-│   │   ├── shrikrishnajanambhoomitempless.jpg
-│   │   ├── Shrinathji_Temple.jpg
-│   │   ├── somnathtemple.webp
-│   │   └── tirupatibalaji.webp
-    |── logo_temple_dark_bg.png
+│   ├── logo_temple.png
 │   └── shivangi_guide.png
 │
 ├── data/
-│   ├── raw/
+│   ├── chroma_db/
 │   ├── processed/
-│   └── chroma_db/
+│   │   ├── temples_master.json
+│   │   └── temples_master_fixed.json
+│   └── raw/
 │
-├── docs/
+│
+├── pages/
+│   ├── Explore.py
+│   ├── Login.py
+│   └── Signup.py
+│
 ├── src/
-├── rag/
-│   └── 05_rag_pipeline.py
+│   ├── rag/
+│   │   └── 05_rag_pipeline.py
+│   │
+│   └── scrapers/
+│       ├── 01_wikipedia_scraper.py
+│       ├── 02_timing_scraper.py
+│       ├── 03_overpass_fetcher.py
+│       └── 04_merge_data.py
 │
-├── scrapers/
-│   ├── 01_wikipedia_scraper.py
-│   ├── 02_timing_scraper.py
-│   ├── 03_overpass_fetcher.py
-│   └── 04_merge_data.py
-│
-├── utils/
-│   ├── test_embed.py
-│   └── voicetest.py
-│
+├── .env
 ├── .env.example
 ├── .gitignore
 ├── app.py
+├── database.py
 ├── guide.mp3
 ├── LICENSE
 ├── README.md
-└── requirements.txt
-```
+├── requirements.txt
+├── testdb.py
+├── users.db
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Category | Technology |
-|----------|------------|
-| Programming Language | Python 3.11 |
-| Frontend | Streamlit |
-| AI Model | Groq (Llama 3) |
-| AI Framework | LangChain |
-| Vector Database | ChromaDB |
-| Web Scraping | BeautifulSoup4, Requests |
-| Maps | Folium |
-| Location API | OpenStreetMap (Overpass API) |
-| Data Format | JSON |
+Category	         Technology
+Language	         Python 3.11
+Frontend	         Streamlit
+AI Model	         Groq (Llama 3)
+Framework	         LangChain
+Vector Database      ChromaDB
+Web Scraping         BeautifulSoup4, Requests
+Maps	               Folium
+Location Services	   OpenStreetMap (Overpass API)
+Data Storage	   JSON
 
 ### 💻 System Requirements
 
@@ -116,9 +112,10 @@ DevaPath/
 
 ### 1. Clone Repository
 
-```bash
-git clone https://github.com/your-username/devapath.git
-cd devapath
+```bas
+git clone https://github.com/Jahanvi-21/Devapath--AI-Temple-Guide.git
+
+cd Devapath-AI Powered Temple Guide Platform
 ```
 
 ### 2. Create Virtual Environment
@@ -209,30 +206,29 @@ The application will start at: `http://localhost:8501`
 
 ```
 Wikipedia API
-      │
-      ▼
-Temple History
-      │
+     │
+Temple Information
+     │
 Temple Timings
-      │
+     │    
 GPS Coordinates
-      │
+     │
 Merge Dataset
-      │
-Generate Master JSON
-      │
+     │
+Master JSON
+     │
 Generate Embeddings
-      │
-Store in ChromaDB
-      │
+     │
+ChromaDB
+     │
 User Query
-      │
-Relevant Context Retrieval
-      │
+     │
+RAG Retrieval
+     │
 Groq (Llama 3)
-      │
+     │
 AI Response
-      │
+     │
 Streamlit Interface
 ```
 
@@ -240,56 +236,72 @@ Streamlit Interface
 
 ## 📂 Dataset Contains
 
-- Temple Name
-- Temple History
-- Main Deity
-- Architecture
-- State
-- Latitude
-- Longitude
-- Aarti Timings
-- Festivals
-- Traditional Dress
-- Interesting Facts
-- Visitor Guidelines
+🛕 Temple Name
+📍 State and Location
+🌍 Latitude & Longitude (GPS Coordinates)
+🙏 Main Deity
+📖 Temple History
+🏛️ Architectural Style
+🪔 Aarti & Darshan Timings
+🎉 Major Festivals and Rituals
+👗 Traditional Dress Guidelines
+ℹ️ Visitor Guidelines
+⭐ Interesting Facts
 
 ---
 
 ## 🌐 Data Sources
 
-| Source | Purpose |
-|---------|----------|
-| Wikipedia API | Temple History |
-| OpenStreetMap (Overpass API) | GPS Coordinates |
-| Manual Dataset | Aarti Timings |
-| Groq API | AI Responses |
+Source	                           Purpose
+Wikipedia API	                   Temple History
+OpenStreetMap (Overpass API)	       GPS Coordinates
+Curated Dataset	                   Temple Timings
+Groq API	                         AI Responses
 
 ---
 
-## 🤖 AI Features
+## 🤖 AI Capabilities
+Retrieval-Augmented Generation (RAG)
+Semantic Search
+Context-aware Responses
+Conversational AI
+Question Answering
+Fast LLM Inference
 
-- Conversational Temple Guide
-- Retrieval-Augmented Generation (RAG)
-- Semantic Search
-- Context-Aware Responses
-- AI Question Answering
-- Fast Inference with Groq
+
 
 ---
 
-## 📸 Screenshots
+## # 📸 Screenshots
 
-### Home Page
-![Home](assets/shivangi_guide.png)
+### 🏠 Home Page
+![Home Page](assets/screenshots/homepage.png)
 
-### Temple Information
+### 🤖 AI Guide
+![AI Guide](assets/screenshots/AI_guide.png)
+
+### 🛕 Temple Information
 ![Temple Information](assets/screenshots/temple_info.png)
 
-### Interactive Map
-![Map](assets/screenshots/interactive_map.png)
+### 🗺️ Interactive Map
+![Interactive Map](assets/screenshots/interactive_map.png)
 
-### Aarti Timing And History
-![Timing & History Information](assets/screenshots/timingandhistory.png)
+### ⏰ Aarti Timing
+![Temple Timings & History](assets/screenshots/aarti_schedule.png)
+
+### ❤️ Devotees Review
+![Devotees Review](assets/screenshots/devotees_review.png)
+
+### ⭐ Extra Features
+![Extra Features](assets/screenshots/extra_features.png)
+
+### 🔐 Login Page
+![Login Page](assets/screenshots/login.png)
+
+### 📝 Signup Page
+![Signup Page](assets/screenshots/signup.png)
+
+
 
 ---
 
@@ -297,9 +309,9 @@ Streamlit Interface
 
 - 🎙️ AI Talking Avatar
 - 👄 Real-Time Lip Synchronization
-- 🙌 Hand Gesture Animation
+- 🙌 Gesture Animation
 - 🌍 Multi-language Support
-- 🔊 Voice Conversation
+- 🔊 Voice -based Conversation
 - 📱 Mobile Application
 - 🗺️ Temple Route Planner
 - ❤️ Personalized Temple Recommendations
@@ -308,11 +320,10 @@ Streamlit Interface
 
 ## 👥 Team Members
 
-| Name | Responsibilities |
-|------|------------------|
-| **Jahanvi** | AI Integration, LangChain, RAG Pipeline, ChromaDB Integration, Streamlit Development |
-| **Abhay Tayal** | Web Scraping, Data Collection, Data Processing, Dataset Preparation |
-| **Aman Bisht** | Testing, Documentation, UI Validation, Quality Assurance |
+Member	                      Responsibilities
+Jahanvi 	             AI Integration, LangChain, RAG Pipeline, ChromaDB, Streamlit Development
+Abhay Tayal	             Data Collection, Web Scraping, Dataset Preparation
+Aman Bisht	             Testing, Documentation, Quality Assurance
 
 ## 👨‍💻 Developed By
 

@@ -89,7 +89,11 @@ if st.button("Create Account", use_container_width=True):
             if success:
                 st.success("✅ Account created successfully!")
                 st.session_state.signup_success = True
-                st.info("Now go to Login page.")
+                st.switch_page("pages/login.py")
 
             else:
                 st.error("Email already exists.")
+st.divider()
+
+if st.button("🔐 Back to Login", use_container_width=True):
+    st.switch_page("pages/login.py")

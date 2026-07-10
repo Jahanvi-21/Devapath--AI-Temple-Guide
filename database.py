@@ -1,10 +1,13 @@
 import sqlite3
+from pathlib import Path
 import hashlib
 
 # ==========================
 # Database Connection
 # ==========================
-conn = sqlite3.connect("users.db", check_same_thread=False)
+DB_PATH = Path(__file__).parent / "users.db"
+
+conn = sqlite3.connect(DB_PATH, check_same_thread=False)
 cursor = conn.cursor()
 
 # ==========================

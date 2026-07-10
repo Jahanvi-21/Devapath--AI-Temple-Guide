@@ -46,4 +46,4 @@ st.divider()
 st.write("Don't have an account?")
 
 if st.button("📝 Create New Account", use_container_width=True):
-    st.switch_page("pages/Signup.py")
+    st.switch_page("pages/signup.py")

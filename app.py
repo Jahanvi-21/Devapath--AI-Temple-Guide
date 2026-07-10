@@ -26,7 +26,7 @@ if "username" not in st.session_state:
 
 # Agar login nahi hua hai to Login page par bhejo
 if not st.session_state.logged_in:
-    st.switch_page("pages/Login.py")
+    st.switch_page("pages/login.py")
     st.stop()
 # ==========================================
 # ENVIRONMENT & AI SETUP
@@ -489,7 +489,7 @@ with top_col2:
         st.session_state.email = ""
 
         # Login page par bhejo
-        st.switch_page("pages/Login.py")
+        st.switch_page("pages/login.py")
 
 st.markdown("---")
 
